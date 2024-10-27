@@ -17,20 +17,8 @@ import { CssBaseline, ThemeProvider } from '@mui/material';
 import { withThemeFromJSXProvider } from '@storybook/addon-themes';
 // import { lightTheme, darkTheme } from '../src/themes.js';
 import { createTheme } from '@mui/material/styles';
+import { theme } from "../src/theme";
 
-/* snipped for brevity */
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: "#000"
-    },
-  },
-  typography:{
-    h1: {
-      fontSize:'10px'
-    }
-  }
-});
 
  
 export const decorators = [

@@ -21,3 +21,10 @@ Secondary.args = {
   label: 'Secondary Button',
   color: 'secondary',
 };
+
+
+export const A = Template.bind({});
+Secondary.args = {
+  label: 'Secondary sdfsdf',
+  color: 'secondary',
+};

@@ -10,6 +10,8 @@
     "forceConsistentCasingInFileNames": true,
     "outDir": "./dist",
     "moduleResolution":"node",
+    "declaration": true,
+    "declarationDir": "./dist/types"
   },
-  "include": ["src"]
+  "include": ["src"],
 }
